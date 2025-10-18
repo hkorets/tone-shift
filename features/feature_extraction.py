@@ -58,7 +58,7 @@ def get_onset(wave, f0):
         post_max=3,
         pre_avg=3,
         post_avg=5,
-        delta=0.10,     
+        delta=0.20,     
         wait=2      
     )
     N_FRAMES_TARGET = len(f0)
