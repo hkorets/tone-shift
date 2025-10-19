@@ -73,8 +73,7 @@ def extract_features(wav):
     f0 = get_f0(y)
     loudness = get_loudness(y)
     onset = get_onset(y, f0)
-    result = list(zip(f0, loudness, onset))
-    return result
+    return f0, loudness, onset, y
     
 
 
